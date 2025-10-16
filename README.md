@@ -49,102 +49,78 @@ Aquí encontrarás desde pequeños componentes funcionales hasta aplicaciones co
 acm-projects-react/
 ├── contador/          # Ejemplo base con useState
 ├── README.md          # Este documento (presentación principal)
+```
 
-🚀 Cómo ejecutar un proyecto localmente
+## 🚀 Cómo ejecutar un proyecto localmente
 
-Clona este repositorio
-
+1. Clona este repositorio
+```bash 
 git clone https://github.com/Kevin01Sierra/acm-projects-react.git
-
-
-Abre la carpeta del proyecto que quieras probar, por ejemplo:
-
+```
+2. Abre la carpeta del proyecto que quieras probar, por ejemplo:
+```bash
 cd contador
-
-
-Instala las dependencias:
-
+```
+3. Instala las dependencias:
+```bash
 npm install
-
-
-Ejecuta el servidor de desarrollo:
-
+```
+4. Ejecuta el servidor de desarrollo:
+```bash
 npm run dev
-
-
-Abre la URL que te muestra Vite (normalmente http://localhost:5173
+```
+5. Abre la URL que te muestra Vite (normalmente http://localhost:5173
 ) 🌐
 
-✨ Convenciones y buenas prácticas
+## ✨ Convenciones y buenas prácticas
 
 📁 Estructura de carpetas
-
-Carpetas → kebab-case (ejemplo: proyecto-ejemplo)
-
-Componentes → PascalCase (ejemplo: MyButton.jsx)
-
-Hooks personalizados → /hooks con prefijo use (ejemplo: useFetch.js)
-
+- Carpetas → ```kebab-case``` (ejemplo: ```proyecto-ejemplo```)
+- Componentes → ```PascalCase``` (ejemplo: ```MyButton.jsx```)
+- Hooks personalizados → ```/hooks``` con prefijo ```use``` (ejemplo: ```useFetch.js```)
 🧩 Cada proyecto debe incluir:
-
-Un README.md con:
-
-Objetivo del proyecto
-
-Instrucciones para ejecución
-
-Dependencias importantes
-
-Capturas o GIFs si aplica
-
+- Un ```README.md``` con:
+    - Objetivo del proyecto
+    - Instrucciones para ejecución
+    - Dependencias importantes
+    - Capturas o GIFs si aplica
 💬 Commits y ramas
+- Commits cortos, descriptivos y en presente.
+- Para nuevas características, usa ramas tipo:
+    ```bash
+    feat/nombre-descriptivo
+    fix/error-boton
+    refactor/optimizacion-hooks
+    ```
 
-Commits cortos, descriptivos y en presente.
+## 🧱 Cómo crear un nuevo proyecto
 
-Para nuevas características, usa ramas tipo:
-
-feat/nombre-descriptivo
-fix/error-boton
-refactor/optimizacion-hooks
-
-🧱 Cómo crear un nuevo proyecto
-
-Copia la carpeta plantilla/ o usa:
-
+1. Copia la carpeta ```plantilla/``` o usa:
+```bash
 npm create vite@latest nombre-del-proyecto --template react
+```
+2. Instala dependencias y ajusta ```package.json```.
+3. Crea un README propio dentro de la carpeta.
+4. Agrega una captura o descripción visual si el proyecto tiene interfaz destacable.
 
+## 💡 Ideas futuras
 
-Instala dependencias y ajusta package.json.
+- Añadir despliegues automáticos con **Vercel** o **Netlify**.
+- Documentación generada automáticamente desde componentes.
+- Galería interactiva con previews de cada proyecto.
 
-Crea un README propio dentro de la carpeta.
-
-Agrega una captura o descripción visual si el proyecto tiene interfaz destacable.
-
-💡 Ideas futuras
-
-Añadir despliegues automáticos con Vercel o Netlify.
-
-Documentación generada automáticamente desde componentes.
-
-Galería interactiva con previews de cada proyecto.
-
-🤝 Contribuciones
+## 🤝 Contribuciones
 
 Si deseas aportar mejoras o ejemplos nuevos:
+    1. Crea una rama (```feat/nueva-demo```).
+    2. Realiza tus cambios y haz commit.
+    3. Abre un Pull Request describiendo tus aportes.
+>🧠 Todo aporte con fines educativos o experimentales es bienvenido.
 
-Crea una rama (feat/nueva-demo).
-
-Realiza tus cambios y haz commit.
-
-Abre un Pull Request describiendo tus aportes.
-
-🧠 Todo aporte con fines educativos o experimentales es bienvenido.
-
-📬 Contacto
+## 📬 Contacto
 
 ¿Tienes comentarios, ideas o quieres colaborar?
-📧 Contáctame en LinkedIn
- o revisa más proyectos en mi GitHub
-.
-
-<p align="center"> <b>© 2025 — ACM Projects React | Creado con 💙 por Kevin Nicolás Sierra González</b> </p> ```
+📧 Contáctame en [LinkedIn](https://www.linkedin.com/in/kvnnsig/)
+ o revisa más proyectos en mi [GitHub](https://github.com/Kevin01Sierra).
+ 
+<p align="center"> <b>© 2025 — ACM Projects React | Creado con 💙 por Kevin Nicolás Sierra González</b> </p>
