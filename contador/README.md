@@ -24,15 +24,15 @@ Descripción de los botones y su comportamiento (archivo: src/App.jsx):
 
 - Botón 1 (icono "reload")
   - Handler: refrescar
-  - Acción: recarga la página (window.location.reload()).
+  - Acción: recarga la página ```(window.location.reload())```.
   - Prop: ```<Btn onClick={refrescar}>…</Btn>```
 
 - Botón 2 (icono "+")
   - Handler: incrementar
-  - Acción: aumenta el contador en 1 (setCount(count + 1)).
+  - Acción: aumenta el contador en 1 ```(setCount(count + 1))```.
   - Prop: ```<Btn onClick={incrementar}>…</Btn>```
 
 - Botón 3 (icono "−")
   - Handler: disminuir
-  - Acción: disminuye el contador en 1 (setCount(count - 1)).
+  - Acción: disminuye el contador en 1 ```(setCount(count - 1))```.
   - Prop: ```<Btn onClick={disminuir}>…</Btn>```
