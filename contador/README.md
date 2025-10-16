@@ -14,3 +14,26 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+// ...existing code...
+## Uso de los botones en App.jsx
+
+Descripción de los botones y su comportamiento (archivo: src/App.jsx):
+
+- Estado inicial:
+  - count (useState): valor inicial 0. Se muestra en <p>{count}</p>.
+
+- Botón 1 (icono "reload")
+  - Handler: refrescar
+  - Acción: recarga la página (window.location.reload()).
+  - Prop: <Btn onClick={refrescar}>…</Btn>
+
+- Botón 2 (icono "+")
+  - Handler: incrementar
+  - Acción: aumenta el contador en 1 (setCount(count + 1)).
+  - Prop: <Btn onClick={incrementar}>…</Btn>
+
+- Botón 3 (icono "−")
+  - Handler: disminuir
+  - Acción: disminuye el contador en 1 (setCount(count - 1)).
+  - Prop: <Btn onClick={disminuir}>…</Btn>
