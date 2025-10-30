@@ -48,6 +48,7 @@ Aquí encontrarás desde pequeños componentes funcionales hasta aplicaciones co
 ```bash
 acm-projects-react/
 ├── contador/          # Ejemplo base con useState
+├── cronometro/        # Cronometro usando useState y useEffect
 ├── README.md          # Este documento (presentación principal)
 ```
 
