@@ -62,3 +62,33 @@
     font-size: 0.9rem;
   }
 }
+
+/* ===== TEMA OSCURO ===== */
+.app-container.dark .btn:disabled {
+  background-color: #2d4a6f;
+  opacity: 0.4;
+}
+
+.app-container.dark .btn-play {
+  background: linear-gradient(135deg, #2d5f3f 0%, #1e4620 100%);
+}
+
+.app-container.dark .btn-play:hover:not(:disabled) {
+  background: linear-gradient(135deg, #3d7f5f 0%, #2d5f3f 100%);
+}
+
+.app-container.dark .btn-pause {
+  background: linear-gradient(135deg, #a0522d 0%, #8b4513 100%);
+}
+
+.app-container.dark .btn-pause:hover:not(:disabled) {
+  background: linear-gradient(135deg, #cd853f 0%, #a0522d 100%);
+}
+
+.app-container.dark .btn-reset {
+  background: linear-gradient(135deg, #8b0000 0%, #660000 100%);
+}
+
+.app-container.dark .btn-reset:hover:not(:disabled) {
+  background: linear-gradient(135deg, #a52a2a 0%, #8b0000 100%);
+}

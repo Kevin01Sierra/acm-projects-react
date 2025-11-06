@@ -53,3 +53,27 @@
   background-color: #f8f9fa;
   color: #6c757d;
 }
+
+/* ===== TEMA OSCURO ===== */
+.app-container.dark {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.app-container.dark .cronometro-card {
+  background: #0f3460;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.app-container.dark .titulo {
+  color: #e0e0e0;
+}
+
+.app-container.dark .estado.activo {
+  background-color: #1e4620;
+  color: #90ee90;
+}
+
+.app-container.dark .estado.inactivo {
+  background-color: #2d2d2d;
+  color: #b0b0b0;
+}

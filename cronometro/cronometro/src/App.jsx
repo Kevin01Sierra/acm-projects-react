@@ -1,14 +1,17 @@
 import { useState, useEffect } from 'react';
+import { useTheme } from './context/ThemeContext';
 import './css/App.css';
 import Display from './components/Display';
 import Botones from './components/Botones';
+import ThemeToggle from './components/ThemeToggle';
 
 function App() {
-  // Estados del cronómetro
   const [tiempo, setTiempo] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
+  
+  // Consumir el contexto
+  const { theme } = useTheme();
 
-  // useEffect para manejar el intervalo del cronómetro
   useEffect(() => {
     let intervalo;
 
@@ -25,7 +28,6 @@ function App() {
     };
   }, [isRunning]);
 
-  // Funciones para los botones
   const handlePlay = () => {
     setIsRunning(true);
   };
@@ -39,7 +41,6 @@ function App() {
     setTiempo(0);
   };
 
-  // Formatear el tiempo en HH:MM:SS
   const formatearTiempo = (segundosTotales) => {
     const horas = Math.floor(segundosTotales / 3600);
     const minutos = Math.floor((segundosTotales % 3600) / 60);
@@ -49,7 +50,9 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className={`app-container ${theme}`}>
+      <ThemeToggle />
+      
       <div className="cronometro-card">
         <h1 className="titulo">Cronómetro</h1>
         
