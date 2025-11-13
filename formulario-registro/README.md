@@ -596,7 +596,7 @@ const formatPais = (pais) => {
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│  1. Usuario escribe en un campo                    │
+│  1. Usuario escribe en un campo                     │
 │     ↓                                               │
 │  2. handleInputChange() actualiza formData          │
 │     ↓                                               │
@@ -625,7 +625,7 @@ const formatPais = (pais) => {
 │     │        Usuario corrige errores                │
 │     │        Vuelve al paso 1                       │
 │     │                                               │
-│     └─ NO → 9. Guardar datos en submittedData      │
+│     └─ NO → 9. Guardar datos en submittedData       │
 │              10. Mostrar SuccessModal               │
 │              11. Limpiar formulario                 │
 │              12. Usuario cierra modal               │
