@@ -49,6 +49,7 @@ Aquí encontrarás desde pequeños componentes funcionales hasta aplicaciones co
 acm-projects-react/
 ├── contador/          # Ejemplo base con useState
 ├── cronometro/        # Cronometro usando useState y useEffect
+├── formulario-registro/ # Formulario con multiples inputs, validaciones y excepciones
 ├── README.md          # Este documento (presentación principal)
 ```
 
