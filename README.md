@@ -63,6 +63,15 @@ git clone https://github.com/Kevin01Sierra/acm-projects-react.git
 ```bash
 cd contador
 ```
+2.1. Abre la carpeta del proyecto que quieras probar, por ejemplo:
+```bash
+cd cronometro
+```
+2.2. Abre la carpeta del proyecto que quieras probar, por ejemplo:
+```bash
+cd formulario-registro
+```
+
 3. Instala las dependencias:
 ```bash
 npm install
